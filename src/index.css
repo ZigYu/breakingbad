@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+body, input, select {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input, select {
+  font-size: calc(10px + 0.8vmin);
+  height: 100%;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+input:disabled {
+  color: rgb(197, 197, 197);
+}
+button {
+  width: 30px;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: rgb(218, 218, 218);
+}
+button:not(:disabled) {
+  cursor: pointer;
+}
+button:disabled {
+  background-color: rgb(94, 94, 94);
+}
+button:active {
+  transform: translateY(1px);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: white;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+td, th {
+  text-align: left;
+  padding: 5px 20px 5px 0;
+  border-bottom: 1px solid rgb(73, 73, 73);
+}
+
+.fadeIn {
+  animation: fadeIn .2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-2px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

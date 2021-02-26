@@ -1,0 +1,19 @@
+.root {
+  width: 80vw;
+  max-width: 1200px;
+}
+
+.root tbody tr:hover {
+  background-color: rgb(31, 31, 31);
+  cursor: pointer;
+}
+
+.table {
+  height: 70vh;
+  min-height: 200px;
+  overflow: auto;
+}
+
+.message {
+  padding-top: 100px;
+}

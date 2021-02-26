@@ -1,0 +1,14 @@
+.root {
+  height: 100vh;
+  min-height: 300px;
+  min-width: 300px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(12px + 1vmin);
+  color: whitesmoke;
+  padding: 8vh 8vw;
+  box-sizing: border-box;
+}
